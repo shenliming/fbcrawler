@@ -1,0 +1,3 @@
+content	fbprofcrawler	chrome/content/
+
+overlay chrome://browser/content/browser.xul chrome://fbprofcrawler/content/menu.xul

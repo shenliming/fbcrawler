@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/content/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+
+<prefwindow id="nicolivealert-settings" title="ニコ生アラート(簡易)の設定" windowtype="prefwindow"
+	    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <prefpane id="nicolivealert-prefpane1" label="設定">
+    <preferences>
+      <preference id="e.n.notifiedcommunities" name="extensions.nicolivealert.notifiedcommunities" type="unichar"/>
+    </preferences>
+
+    <label value="放送開始時、自動でページを開くコミュニティを記述してください:"/>
+    <textbox preference="e.n.notifiedcommunities" id="id-notified-communities" flex="1" multiline="true" rows="6"/>
+  </prefpane>
+
+  <!--
+  <script type="application/javascript;version=1.7" src="chrome://nicolivealert/content/preferences.js" />
+  <script type="application/javascript;version=1.7" src="chrome://nicolivealert/content/prefutils.js" />
+  -->
+
+</prefwindow>

@@ -1,0 +1,41 @@
+		/*
+		let label = [ "Sex",
+			      "Birthday", // birthday
+			      "Parents",  // family
+			      "Siblings", // family
+			      "Children", // family
+			      "Relationship Status", // relationships
+			      "Interested In", // interested in and looking for
+			      "Looking For",   // interested in and looking for
+			      "Current City",
+			      "Hometown",
+			      "Political Views", // religious and political views
+			      "Religious Views",
+			      "Bio",                 // bio and favorite quotations
+			      "Favorite Quotations", // bio and favorite quotations
+			      "Employers",
+			      "Grad School",
+			      "College",
+			      "High School",
+			      "Activities",
+			      "Interests",
+			      "Music",
+			      "Books",
+			      "Movies",
+			      "Television",
+			      "Email",        // mail address 
+			      "Mobile Phone", // mobile phone
+			      "Other Phone",  // other phone
+			      "Address",      // address
+			      "AIM",          // IM screen name
+			      "Gadu-Gadu",
+			      "ICQ",
+			      "Google Talk",
+			      "Skype",
+			      "Yahoo",
+			      "Yahoo Japan",
+			      "QQ",
+			      "NateOn",
+			      "Website"       // website
+			    ];
+*/

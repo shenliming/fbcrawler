@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<window id="fb-crawler-window"
+        title="Crawling Profiles on Facebook"
+	width="960"
+	height="480"
+        onclose="return true;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/javascript;version=1.7" src="chrome://fbprofcrawler/content/fb_userid.js" />
+  <script type="application/javascript;version=1.7" src="chrome://fbprofcrawler/content/fb_proffiles.js" />
+  <script type="application/javascript;version=1.7" src="chrome://fbprofcrawler/content/crawler.js" />
+<hbox flex="1">
+  <vbox flex="2">
+    <label id="fb-current-id" maxwidth="640" minwidth="640" crop="end"/>
+    <browser id="fb-crawler-browser"
+     autoscroll="true" 
+	   src="about:blank"
+	   type="content"
+	   flex="1"/>
+  </vbox>
+
+  <vbox flex="1">
+    <textbox  flex="3" multiline="true" id="content"/>
+    <textbox  flex="1" multiline="true" id="console"/>
+    <label id="counter"  crop="end"/>
+    <hbox>
+      <textbox id="fb-prof-id" flex="1"/><button label="Next" onclick="fbProfCrawler.crawlNext();"/>
+    </hbox>
+  </vbox>
+</hbox>
+</window>

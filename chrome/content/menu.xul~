@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<overlay id="fbprofcrawler" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/javascript;version=1.7" src="chrome://fbprofcrawler/content/overlay.js" />
+
+  <statusbar id="status-bar">
+    <statusbarpanel id="fbprofcrawler" label="fbProfCrawling" context="fb-crawler-menu"/>
+  </statusbar>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="fb-crawler-menu" label="Fb Crawling" oncommand="fbProfCrawler.onclick();" />
+  </popup>
+
+</overlay>

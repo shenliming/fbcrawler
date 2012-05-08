@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<overlay id="fbprofcrawler" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/javascript;version=1.7" src="chrome://fbprofcrawler/content/overlay.js" />
+
+  <statusbar id="status-bar">
+    <statusbarpanel id="fbprofcrawler" label="fbProfCrawling" context="fb-crawler-menu"/>
+  </statusbar>
+
+  <popupset>
+    <menupopup id="fb-crawler-menu">
+      <menuitem label="Fb Crawling" oncommand="fbProfCrawler.onclick();" />
+    </menupopup>
+  </popupset>
+  
+  <vbox id="appmenuSecondaryPane">
+    <menu id="xulschoolhello-hello-menu-2" label="A"
+      insertafter="appmenu_addons">
+      <menupopup>
+        <menuitem id="xulschoolhello-hello-menu-item-2"
+          oncommand="fbProfCrawler.onclick();" />
+      </menupopup>
+    </menu>
+  </vbox>
+
+</overlay>
